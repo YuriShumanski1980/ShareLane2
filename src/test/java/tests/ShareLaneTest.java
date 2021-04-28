@@ -21,8 +21,8 @@ public class ShareLaneTest {
         driver.findElement(By.name("first_name")).sendKeys("Piter");
         driver.findElement(By.name("last_name")).sendKeys("Swagger");
         driver.findElement(By.name("email")).sendKeys("999@gmail.com");
-        driver.findElement(By.name("password1")).sendKeys("55555");
-        driver.findElement(By.name("password2")).sendKeys("55555");
+        driver.findElement(By.name("password1")).sendKeys("9999999");
+        driver.findElement(By.name("password2")).sendKeys("9999999");
         driver.findElement(By.xpath("//*[@value='Register']")).click();
 
         //driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);

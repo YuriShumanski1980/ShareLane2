@@ -24,6 +24,6 @@ public class ShareLaneLesson5HW4 {
         driver.findElement(By.name("email")).sendKeys("marina_collins@024.49.sharelane.com");
         driver.findElement(By.name("password")).sendKeys("1111");
         driver.findElement(By.xpath("//*[@value='Login']")).click();
-        driver.quit();
+        //driver.quit();
     }
 }

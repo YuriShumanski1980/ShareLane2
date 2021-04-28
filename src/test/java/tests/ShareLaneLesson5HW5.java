@@ -26,9 +26,14 @@ public class ShareLaneLesson5HW5 {
         driver.findElement(By.name("email")).sendKeys("marina_collins@024.49.sharelane.com");
         driver.findElement(By.name("password")).sendKeys("1111");
         driver.findElement(By.xpath("//*[@value='Login']")).click();
+
         //Если оставить следующие две строки дальше тест падает - пока закомментировал
+        //Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 20926
+        //Only local connections are allowed.
         //driver.findElement(By.xpath("/html/body/center/table/tbody/tr[2]/td/form/input[1]")).sendKeys("White");
         //driver.findElement(By.xpath("//*[@value='Search']")).click();
+        //или
+        //driver.findElement(By.xpath("/html/body/center/table/tbody/tr[1]/td/table/tbody/tr/td[3]/a")).click();
         driver.quit();
     }
 }

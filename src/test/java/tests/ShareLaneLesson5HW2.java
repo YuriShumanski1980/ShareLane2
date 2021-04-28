@@ -15,4 +15,3 @@ public class ShareLaneLesson5HW2 {
         driver.quit();
     }
 }
-
